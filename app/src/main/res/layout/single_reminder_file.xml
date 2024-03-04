@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_margin="10dp"
+    android:elevation="8dp"
+    android:background="@color/mainCardColor"
+    android:outlineSpotShadowColor="@color/mainCardColor"
+    app:cardCornerRadius="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'"
+            android:textColor="@color/indigo_80"
+            android:textStyle="bold"
+            android:gravity="top|start"
+            android:textAlignment="gravity"
+            android:layout_alignParentStart="true"
+            android:textSize="65sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@color/mainCardColor"
+            android:layout_marginStart="10dp">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/mainCardColor"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                tools:ignore="UselessParent">
+
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alata"
+                    android:text="@string/title"
+                    android:textColor="@color/textColor"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor"
+                    android:layout_below="@id/txtTitle"
+                    android:text="Decs"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/taskCheckBox"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="end|center"
+                    android:layout_alignParentEnd="true"
+                    android:button="@null"
+                    android:background="@drawable/custom_checkbox"/>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

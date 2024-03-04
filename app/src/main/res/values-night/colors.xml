@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardColor">#000000</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="theme">#434143</color>
+
+    <color name="switch_thumb_on">#006400</color>
+    <color name="switch_thumb_off">#FFFFFF</color>
+    <color name="switch_track_on">#00008B</color>
+    <color name="switch_track_off">#8B008B</color>
+    <color name="mainscreentheme">#000000</color>
+    <color name="mainCardColor">#222021</color>
+    <color name="indigo_80">#6F81FF</color>
+    <color name="indigo_83">#6232BA</color>
+    <color name="addCardColor">#000000</color>
+
+
+
+    <color name="lightblack">#000000</color>
+    <color name="addTheme">#150C17</color>
+
+    <color name="uncheckedColor">#FF0000</color>
+    <color name="checkboxColor">#1E88E5</color> <!-- Example checkbox color -->
+    <color name="buttonColor">#5E35B1</color> <!-- Example button color -->
+    <color name="statusBarColor">#7B1FA2</color> <!-- Example status bar color -->
+</resources>
